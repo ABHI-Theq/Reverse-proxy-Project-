@@ -1,22 +1,22 @@
-# Ninja Reverse Proxy
+# Ninja Reverse Proxy 🥷
 
-## Overview
+## Overview 📖
 
 Ninja Reverse Proxy is a simple reverse proxy server built with Node.js and TypeScript. It uses clustering to handle multiple worker processes and routes incoming HTTP requests to specified upstream servers based on predefined rules.
 
-## Features
+## Features ✨
 
-- Load balancing across multiple worker processes
-- Configurable upstream servers and routing rules
-- Support for custom headers
-- Easy configuration using YAML
+- Load balancing across multiple worker processes ⚖️
+- Configurable upstream servers and routing rules 🔧
+- Support for custom headers 📝
+- Easy configuration using YAML 📄
 
-## Prerequisites
+## Prerequisites 📋
 
-- Node.js (>= 14.x)
-- TypeScript
+- Node.js (>= 14.x) 🟢
+- TypeScript 🟦
 
-## Installation
+## Installation 💻
 
 1. Clone the repository:
     ```sh
@@ -34,7 +34,7 @@ Ninja Reverse Proxy is a simple reverse proxy server built with Node.js and Type
     npm run build
     ```
 
-## Configuration
+## Configuration ⚙️
 
 The configuration is done using a YAML file. Below is an example configuration (`config.yaml`):
 
@@ -74,7 +74,7 @@ server:
       - node2
 ```
 
-## Running the Server
+## Running the Server 🚀
 
 To start the reverse proxy server, use the following command:
 
@@ -84,7 +84,7 @@ node dist/index.js --config path/to/config.yaml
 
 Replace `path/to/config.yaml` with the actual path to your configuration file.
 
-## Project Structure
+## Project Structure 🗂️
 
 - `src/`: Contains the source code
   - `config.ts`: Functions for parsing and validating the YAML configuration
@@ -94,10 +94,10 @@ Replace `path/to/config.yaml` with the actual path to your configuration file.
   - `index.ts`: Entry point for the application
 - `config.yaml`: Example configuration file
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License.
